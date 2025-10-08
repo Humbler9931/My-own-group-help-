@@ -14,7 +14,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Bot Token
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8123726548:AAFKM_mphiAabUzHU7QXKKQqoCz2s-YM1_M"
 
 # Data storage
 ADMIN_FILE = "admins.json"
