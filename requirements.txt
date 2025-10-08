@@ -1,10 +1,17 @@
-python-telegram-bot==20.8
-aiohttp==3.9.5
-certifi==2024.8.30
-python-dotenv==1.0.1
-pytz==2024.1
-requests==2.32.3
-urllib3==2.2.3
-anyio==4.6.2.post1
-h11==0.14.0
-sniffio==1.3.1
+# Python Telegram Bot (PTB) ka latest version use karein.
+# Aapke code mein 'Application' class ka use kiya gaya hai,
+# jo v20.0+ mein aata hai.
+python-telegram-bot==22.5
+
+# Agar aapke bot mein koi advanced features, jaise ki
+# Webhooks, JobQueue, ya rate limiting ki zaroorat ho,
+# toh inmein se koi bhi optional dependency add kar sakte hain:
+# python-telegram-bot[webhooks,job-queue,rate-limiter]==22.5
+
+# Aapke code mein in libraries ka use hua hai:
+# json (built-in)
+# os (built-in)
+# re (built-in)
+# collections (built-in)
+# asyncio (built-in)
+# datetime (built-in)
