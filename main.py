@@ -108,14 +108,14 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("➕ Add to Group", url=f"https://t.me/{context.bot.username}?startgroup=true")],
         [InlineKeyboardButton("📚 Commands", callback_data="help"), 
          InlineKeyboardButton("⚙️ Features", callback_data="features")],
-        [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/YourUsername")]
+        [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/teamrajweb")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
     text = """
 🤖 <b>Advanced Group Manager Bot</b>
 
-Welcome! I'm a powerful bot with 100+ features for managing your groups.
+Welcome! I'm a powerful bot made by @teamrajweb for managing your groups.
 
 <b>Key Features:</b>
 ✅ Advanced Admin Tools
