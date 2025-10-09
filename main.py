@@ -230,7 +230,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [
             InlineKeyboardButton("➕ Add to Group", url=f"https://t.me/{context.bot.username}?startgroup=true"),
-            InlineKeyboardButton("📢 Channel", url="https://t.me/YourChannel")
+            InlineKeyboardButton("📢 Channel", url="https://t.me/narzoxbot")
         ],
         [
             InlineKeyboardButton("📚 Commands", callback_data="help"),
@@ -241,8 +241,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             InlineKeyboardButton("📊 Stats", callback_data="global_stats")
         ],
         [
-            InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/YourUsername"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/YourSupport")
+            InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/teamrajweb"),
+            InlineKeyboardButton("💬 Support", url="https://t.me/+Y3SlUxZiUoc5MzNl")
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -254,7 +254,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 👋 Welcome <b>{user.first_name}</b>!
 
-I'm an AI-powered bot with <b>150+ features</b> for managing Telegram groups professionally.
+I'm an AI-powered bot with <b> made by @narzoxbot owner </b> for managing Telegram groups professionally.
 
 <b>✨ Key Highlights:</b>
 ━━━━━━━━━━━━━━━━━━━━━━
