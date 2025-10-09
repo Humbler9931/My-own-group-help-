@@ -2787,5 +2787,6 @@ def main():
     
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
-main()
+if __name__ == "__main__":
+    main()
     
