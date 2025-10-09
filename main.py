@@ -2649,7 +2649,6 @@ def main():
     application.add_handler(CommandHandler("pin", pin))
     application.add_handler(CommandHandler("unpin", unpin))
     application.add_handler(CommandHandler("purge", purge))
-    application.add_handler(CommandHandler("del", del_message))
     application.add_handler(CommandHandler("promote", promote))
     application.add_handler(CommandHandler("demote", demote))
     application.add_handler(CommandHandler("settitle", set_title))
